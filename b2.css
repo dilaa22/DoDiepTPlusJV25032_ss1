@@ -1,0 +1,38 @@
+body {
+    background-color: #0f0f0f;
+    color: #00ffcc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .image-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 2px solid #333;
+  }
+  
+  .description p {
+    font-style: italic;
+    font-weight: 500;
+    color: #00ffaa;
+  }
