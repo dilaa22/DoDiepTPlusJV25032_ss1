@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    font-size: 30px;
+    color: #1a6199;
+    margin-bottom: 20px;
+}
+.demo-css{
+    border-left: 10px solid #e0c94c;
+    padding-left: 20px;
+    background-color: #fffaef;
+}
+p{
+    padding: 5px 0px;
+}

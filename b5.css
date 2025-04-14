@@ -1,0 +1,25 @@
+.post-container img{
+    width: 400px;
+}
+.post-container{
+    width: 1200px;
+}
+.post-container a{
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;}
+    .post-container .title{
+        margin-bottom: 20px;
+    }
+    .post-container .category{
+        color: #777777;
+        margin-bottom: 20px;
+    }
+    .post-container .category b{
+        color: black;
+    }
+.post-container .col-02{
+    padding: 0px 20px
+}

@@ -1,0 +1,34 @@
+
+.tb{
+        width: 80%;
+        margin: 30px auto;
+        border-collapse: collapse;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        background-color: white;
+        text-align: center;
+}
+td,th{
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+th{
+    background-color: #007bff;
+  color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #e0e0e0;
+  }
+ h2{
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+    text-shadow: 1px 1px 1px #ccc;
+} 
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
