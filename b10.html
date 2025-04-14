@@ -8,32 +8,104 @@
 </head>
 
 <body>
-    <h1>Chào mừng đến với Blog ẩm thực</h1>
-    <p>Khám phá những món ăn ngon và công thức đặc sắc !</p>
-    <h2>Giới thiệu</h2>
-    <p>Ẩm thực không chỉ là ăn uống mà còn là <mark>nghệ thuật</mark>.Hôm nay, chúng ta cùng khám phá những món ăn độc
-        đáo từ khắp nơi trên thế giới.</p>
-    <h2>Thông tin về tác giả</h2>
-    <p>Tôi là <b>Nguyễn Minh Anh</b>,một người đam mê nấu ăn và khám phá ẩm thực từ các nền văn hóa khác nhau.</p>
-    <h2>Các món ăn nổi bật</h2>
-    <ul>
-        <li><u>Phở</u>-Món ăn truyền thống của Việt Nam</li>
-        <li><mark>Sushi</mark>-Ẩm thực tinh túy từ Nhật Bản</li>
-        <li><u>Bánh Croque Monsieur</u>-Hương vị châu Âu</li>
-    </ul>
-    <h2>Công thức đặc biệt</h2>
-    <p>Một công thức nổi tiếng : <b>Pasta Carborana</b><br>Công thức khoa học:C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> +
-        O<sub>2</sub> &rarr; CO<sub>2</sub> + H<sub>2</sub>O + Năng lượng <br>Nhiệt độ nấu phù hợp
-        :180<sup>o</sup>C<sup>(356<sup>o</sup>F)</sup> </p>
-        <h2>Hình ảnh món ăn</h2>
-        <img src="https://bizweb.dktcdn.net/100/442/328/files/nhung-dieu-ve-mon-pho-bo-khong-phai-ai-cung-biet-3.jpg?v=1638935205292" alt="">
-        <p>Một món ăn tuyệt vời để thưởng thức!</p>
-        <h2>Bí quyết nấu ăn</h2>
-        <P>Bạn có biết?Khi nấu ăn, việc sử dụng gia vị có thể giúp tăng <mark>hương vị</mark> và <u>dinh dưỡng</u> của món ăn! </P>
-        <h2>Liên Hệ</h2>
-        <p>Nếu bạn có bất kỳ câu hỏi nào, đừng ngần ngại  <a href="https://www.facebook.com/profile.php?id=100010100625929">Liên hệ với tôi</a>. </p>
-        <h3>©2025 Blog Ẩm thực. Mọi quyền được bảo lưu.</h3>
-        <h3>3.đánh giá </h3>
+    <form>
+        <div>
+            <label>Họ và tên:</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label>Ngày sinh:</label>
+            <input type="date">
+        </div>
+
+        <div>
+            <label>Giới tính:</label>
+            <input type="radio" name="gender"> Nam
+            <input type="radio" name="gender"> Nữ
+        </div>
+
+        <div>
+            <label>Số căn cước công dân:</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label>Ngày cấp:</label>
+            <input type="date">
+        </div>
+
+        <div>
+            <label>Nơi cấp:</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label>Số điện thoại:</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label>Email:</label>
+            <input type="email">
+        </div>
+
+        <div>
+            <label>Địa chỉ thường trú:</label><br>
+            <textarea rows="2" cols="30"></textarea>
+        </div>
+
+        <div>
+            <label>Địa chỉ tạm trú:</label><br>
+            <textarea rows="2" cols="30"></textarea>
+        </div>
+
+        <div>
+            <label>Loại căn cước công dân:</label>
+            <input type="radio" name="cccd_type"> Căn cước công dân mới
+            <input type="radio" name="cccd_type"> Căn cước công dân cũ
+        </div>
+
+        <div>
+            <label>Dân tộc:</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label>Tôn giáo:</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label>Quốc tịch:</label>
+            <input type="text" value="Việt Nam">
+        </div>
+
+        <div>
+            <label>Họ tên cha/mẹ:</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label>Số CMND/CCCD của cha/mẹ:</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label>Tỉnh/Thành phố:</label>
+            <select>
+                <option>Chọn Tỉnh/Thành phố</option>
+                <option>Hà Nội</option>
+                <option>TP. Hồ Chí Minh</option>
+                <option>Đà Nẵng</option>
+                <!-- Thêm các tỉnh khác tại đây -->
+            </select>
+        </div>
+
+        <div>
+            <button type="submit">Gửi thông tin</button>
+        </div>
+    </form>
 </body>
 
 </html>
